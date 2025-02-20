@@ -339,26 +339,6 @@ header{
     min-width: 100%; /* Cada item ocupa 100% da largura do carrossel */
     /* background-color: purple; */
 }
-.items-carrosel .carrossel-item{
-    /* display: flex;
-    justify-content: center;
-    align-items:center; */
-    /* background-color: purple; */
-    /* min-width: 20%;
-    max-width: 50%; */
-}
-/* .items-carrosel .carrossel-item span{
-    white-space: pre;
-    padding: 8px;
-    margin-left: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: white;
-    background-color: #333333;
-    border-radius: 90px;
-
-} */
  .carrossel .percent-off{
     display: flex;
     flex-direction: column;
@@ -373,9 +353,6 @@ header{
     margin-top: -20px;
     opacity: .95;
     background-color: #DEFC62;
-
-}
-.items-carrosel .carrossel-item{
 
 }
 .carrossel-item img {
@@ -455,4 +432,71 @@ header{
 .carrossel .more-promotion-prices-details{
     font-size: 12px;
     color: var(--category-bar-color);
+}
+
+
+.more-itens-carrossel{
+    display: flex;
+    padding-left: 305px;
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carrossel2 {
+    display: flex;
+    overflow: hidden; 
+    width: 1400px;
+}
+.items-carrosel .carrossel {
+
+}
+.carrossel2 .carrossel2-container {
+    
+}
+.carrossel2-container-all{
+
+
+}
+.carrossel2-item {
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.carrossel2-item img{
+
+}
+.carrossel2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* top: 20%; */
+    /* transform: translateY(-30%); */
+    /* background-color: #F5F5F5; */
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+.carrossel2 button {
+    transform: translateY(200%);
+}
+.carrossel2 button img{
+    min-width: 10px;
+}
+.carrossel2 .prev {
+    left: 280px;   
+}
+.carrossel2 .next {
+    right: 280px;
+}
+.carrossel2 button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
