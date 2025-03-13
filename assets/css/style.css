@@ -370,7 +370,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* mudar para position: relative; */
+    position: relative; 
     top: 20%;
     background-color: #F5F5F5;
     border-radius: 100px;
@@ -384,7 +385,7 @@ header{
     z-index: 10;
 }
 .all-carrossel button {
-    transform: translateY(2150%);
+    /* transform: translateY(2150%); */
 }
 .all-carrossel button img{
     min-width: 20px;
@@ -394,9 +395,6 @@ header{
 }
 .all-carrossel .next {
     right: 250px;
-}
-.all-carrossel button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 .carrossel .promotion-price{
     display: flex;
@@ -495,9 +493,6 @@ header{
 .all-carrossel2 .next {
     right: 280px;
 }
-.all-carrossel2 button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 .see-too-offers{
     padding-top: 50px;
@@ -517,4 +512,36 @@ header{
 
 .browse-by-brands{
     margin-top: 50px;
+}
+
+
+.fav-sport{
+    margin-top: 50px;
+}
+.carrossel4{
+    margin-left: -780px;
+}
+
+.carrossel5{
+    margin-left: 42px;
+}
+
+.all-carrossel2 .button4{
+    transform: translateY(800%);
+}
+
+.all-carrossel .button6{
+    transform: translateY(8700%);
+
+}
+
+.all-carrossel .button7{
+    transform: translateY(12900%);
+}
+
+.all-carrossel7 .prev{
+    left: 410px;
+}
+.all-carrossel7 .carrossel-item img{
+    margin-top: -44px;
 }
