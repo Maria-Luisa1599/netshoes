@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('./carrossel1.css');
+@import url('./carrossel2.css');
+@import url('./carrossel3.css');
+@import url('./carrossel4.css');
+@import url('./carrossel5.css');
+@import url('./carrossel6.css');
+@import url('./carrossel7.css');
 
 * {
     margin: 0;
@@ -26,6 +32,10 @@ body{
 
 header{
     color: var(--bg-color);
+}
+
+main{
+    color: black;
 }
 
 .acessibility-bar{
@@ -64,13 +74,12 @@ header{
     margin-right: 3px;
 }
 
-
 .search-bar{
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 20;
     align-items: center;
     background-color: var(--primary-color);
     width: 100%;
@@ -135,7 +144,6 @@ header{
     font-weight: 600;
 }
 
-
 .category-bar{
     display: flex;
     align-items: center;
@@ -189,7 +197,6 @@ header{
     margin-left: 40px;
 
 }
-
 
 .cupom-bar{}
 .cupom-bar img{
@@ -247,8 +254,6 @@ header{
     
 }
 
-/* codepen site legal */
-
 .countdown {    
     display: flex;
     justify-content: center;
@@ -287,211 +292,10 @@ header{
     text-align: center;
 }
 
-
-.all-carrossel{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    max-width: 68%;
-    margin-top: 25px;
-    padding: 13px;
-    overflow: hidden;
-}
-.carrossel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 336px;
-    width: 305px;
-    height: 492px;
-}
-.items-carrosel .carrossel {
-    width: 100%;
-    height: 50px;
-    margin-top: 16px;
-}
-.carrossel .carrossel-container {
-    display: flex;
-    align-items: center;
-    min-width: 100%;
-    min-height: 100%;
-    margin-right: 20px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0px 1px 1px 3px rgb(236, 236, 236);
-    -moz-box-shadow: 0px 1px 1px 3px rgb(236, 236, 236);
-    box-shadow: 0px 1px 1px 3px rgb(236, 236, 236);
-}
-.carrossel-container-all{
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    margin-right: 15px;
-    line-height: 25px;
-}
-.carrossel-item {
-    display: flex;    
-    flex-direction: column;
-    justify-content: center;
-    min-width: 100%;
-}
- .carrossel .percent-off{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 20px;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 13px;
-    margin-top: -20px;
-    opacity: .95;
-    background-color: #DEFC62;
-
-}
-.carrossel-item img {
-    height: 280px;
-    margin-top: -68px;
-    border-radius: 4px;
-}
-.carrossel .carrossel-container-legenda{
-    display: flex;
-    flex-direction: column;
-    font-size: 17px;
-    font-family: arial;
-    padding-left: 11px;
-    margin-top: 10px;
-}  
-.carrossel .leg-button {
-
-}
-.all-carrossel button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* mudar para position: relative; */
-    position: relative; 
-    top: 20%;
-    background-color: #F5F5F5;
-    border-radius: 100px;
-    height: 40px;
-    width: 40px;
-    color: white;
-    border: none;
-    font-size: 2rem;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-.all-carrossel button {
-    /* transform: translateY(2150%); */
-}
-.all-carrossel button img{
-    min-width: 20px;
-}
-.all-carrossel .prev {
-    left: 250px;   
-}
-.all-carrossel .next {
-    right: 250px;
-}
-.carrossel .promotion-price{
-    display: flex;
-    margin-top: 32px;
-    font-size: 14px;
-    padding-left: 11px;
-    text-decoration: line-through;
-    color: var(--category-bar-color);
-}
-.carrossel .more-promotion-prices{
-    display: flex;  
-    flex-direction: column;
-    padding-left: 11px;
-}
-.carrossel .first-promotion-price span{
-    font-weight: 600;
-    font-family: Roboto;
-    font-size: 16px;
-}
-.carrossel .first-promotion-price span:first-of-type{
-    font-weight: 900;
-    font-family: Roboto;
-    font-size: 22px;
-}
-.carrossel .more-promotion-prices-details{
-    font-size: 12px;
-    color: var(--category-bar-color);
-}
-.more-itens-carrossel{
-    padding-top: 5px;
-}
 .text{
     padding-left: 305px;
     font-size: 18px;
     font-weight: 600;
-}
-
-
-/* carrosel 2 */
-.all-carrossel2{
-    display: flex;
-    justify-content: center;
-    max-width: 1264px;
-    margin: auto;
-    overflow: hidden;
-}
-.carrossel2 {
-    display: flex;
-}
-.items-carrosel .carrossel {
-
-}
-.carrossel2 .carrossel2-container {
-    
-}
-.carrossel2-container-all{
-
-
-}
-.carrossel2-item {
-
-    margin-right: 25px;
-    margin-top: 20px;
-}
-.carrossel2-item span{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 600;
-}
-.all-carrossel2 button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    border-radius: 100px;
-    height: 30px;
-    width: 30px;
-    color: white;
-    border: none;
-    font-size: 2rem;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-.all-carrossel2 button {
-    transform: translateY(200%);
-}
-.all-carrossel2 button img{
-    min-width: 10px;
-}
-.all-carrossel2 .prev {
-    left: 280px;   
-}
-.all-carrossel2 .next {
-    right: 280px;
 }
 
 .see-too-offers{
@@ -518,30 +322,26 @@ header{
 .fav-sport{
     margin-top: 50px;
 }
-.carrossel4{
-    margin-left: -780px;
-}
 
-.carrossel5{
-    margin-left: 42px;
+.image-ads{
+    display: flex;
+    margin: 20px 0 50px 310px;
 }
-
-.all-carrossel2 .button4{
-    transform: translateY(800%);
+.image-ads > img{
+    /* width: 640px; */
+    width: 630px;
+    margin-right: 20px;
 }
-
-.all-carrossel .button6{
-    transform: translateY(8700%);
-
+.display-image-ads{
+    display: flex;
+    flex-direction: column;
 }
-
-.all-carrossel .button7{
-    transform: translateY(12900%);
+.display-image-ads-top{
+    width: 250px;
 }
-
-.all-carrossel7 .prev{
-    left: 410px;
+.display-image-ads > img{
+    width: 640px;
 }
-.all-carrossel7 .carrossel-item img{
-    margin-top: -44px;
+.image-ads-top img:first-of-type{
+    margin-right: 15px;
 }

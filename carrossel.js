@@ -63,7 +63,7 @@ function atualizarCarrossel3() {
 
   carrossel3Container.style.transform = `translateX(${translateValue}%)`;
 
-  if (translateValue <= -50) {
+  if (translateValue <= -80) {
 
     index3 = 0;
     carrossel3Container.style.transition = 'none';
@@ -89,7 +89,7 @@ function atualizarCarrossel4() {
 
   carrossel4Container.style.transform = `translateX(${translateValue}%)`;
 
-  if (translateValue <= -50) {
+  if (translateValue <= -70) {
 
     index4 = 0;
     carrossel4Container.style.transition = 'none';
@@ -108,7 +108,7 @@ function mudarImagem4(direcao) {
 let index5 = 0;
 const carrossel5Container = document.querySelector('.carrossel5'); 
 const totalItems5 = document.querySelectorAll('.carrossel5-container').length;
-const itemWidth5 = 10;
+const itemWidth5 = 30;
 
 function atualizarCarrossel5() {
   const translateValue = -(index5 * itemWidth5);
@@ -135,14 +135,14 @@ function mudarImagem5(direcao) {
 let index6 = 0;
 const carrossel6Container = document.querySelector('.carrossel6'); 
 const totalItems6 = document.querySelectorAll('.carrossel6-container').length;
-const itemWidth6 = 10;
+const itemWidth6 = 50;
 
 function atualizarCarrossel6() {
   const translateValue = -(index6 * itemWidth6);
 
   carrossel6Container.style.transform = `translateX(${translateValue}%)`;
 
-  if (translateValue <= -50) {
+  if (translateValue <= -300) {
 
     index6 = 0;
     carrossel6Container.style.transition = 'none';

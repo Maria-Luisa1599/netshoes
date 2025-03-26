@@ -1,0 +1,61 @@
+
+/* carrosel 2 */
+.all-carrossel2{
+    display: flex;
+    justify-content: center;
+    max-width: 1295px;
+    margin: auto;
+    overflow: hidden;
+}
+.carrossel2 {
+    display: flex;
+}
+.items-carrosel .carrossel {
+
+}
+.carrossel2 .carrossel2-container {
+    
+}
+.carrossel2-container-all{
+
+
+}
+.carrossel2-item {
+
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.carrossel2-item span{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.all-carrossel2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+.all-carrossel2 button {
+    transform: translateY(165%);
+}
+.all-carrossel2 button img{
+    min-width: 10px;
+}
+.all-carrossel2 .prev {
+    left: 280px;   
+}
+.all-carrossel2 .next {
+    right: 280px;
+}

@@ -1,0 +1,18 @@
+.all-carrossel6{
+    max-width: 69%;
+    min-height: 100%;
+    margin-top: 40px;
+    margin-left: 306px;
+}
+.carrossel-content6{
+    margin-left: 175px;
+}
+.all-carrossel .button6{
+    margin-left: 1335px;
+}
+.all-carrossel6 .prev {
+    left: -1363px;
+}
+.all-carrossel6 .next {
+    right: 30px;
+}
