@@ -87,18 +87,13 @@ main{
     padding-right: 50px;
 }
 .search-bar .netshoes-logo{
-    /* margin-right: 20px; */
     margin-left: 10px;
-    /* position: relative;
-    left: 285px; */
 }
 .search-bar img{
     width: 232px;
 
 }
 .search-bar input{
-    /* position: relative;
-    left: 310px; */
     width: 635px;
     height: 41px;
     padding-left: 25px;
