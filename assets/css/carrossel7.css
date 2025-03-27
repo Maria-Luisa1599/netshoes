@@ -1,18 +1,19 @@
 /* PRECISA DE AJUSTE */
 
 .carrossel7{
-    margin-left: 745px;
-}
-.all-carrossel7 .prev{
-    left: 699px;
-}
-.all-carrossel7 .next{
-    right: -2000px;
-}
-.all-carrossel7 .carrossel-item img{
-    margin-top: -44px;
+    margin-left: 1142px;
 }
 .carrossel-content7{
     justify-content: start;
     margin-left: 470px;
+    max-width: 64%;
+}
+.all-carrossel7 .carrossel-item img{
+    margin-top: -44px;
+}
+.all-carrossel7 .prev{
+    left: 441px;
+}
+.all-carrossel7 .next{
+    right: -1744px;
 }

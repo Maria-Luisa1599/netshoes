@@ -108,14 +108,14 @@ function mudarImagem4(direcao) {
 let index5 = 0;
 const carrossel5Container = document.querySelector('.carrossel5'); 
 const totalItems5 = document.querySelectorAll('.carrossel5-container').length;
-const itemWidth5 = 30;
+const itemWidth5 = 80;
 
 function atualizarCarrossel5() {
   const translateValue = -(index5 * itemWidth5);
 
   carrossel5Container.style.transform = `translateX(${translateValue}%)`;
 
-  if (translateValue <= -50) {
+  if (translateValue <= -320) {
 
     index5 = 0;
     carrossel5Container.style.transition = 'none';
@@ -161,14 +161,14 @@ function mudarImagem6(direcao) {
 let index7 = 0;
 const carrossel7Container = document.querySelector('.carrossel7'); 
 const totalItems7 = document.querySelectorAll('.carrossel7-container').length;
-const itemWidth7 = 10;
+const itemWidth7 = 80;
 
 function atualizarCarrossel7() {
   const translateValue = -(index7 * itemWidth7);
 
   carrossel7Container.style.transform = `translateX(${translateValue}%)`;
 
-  if (translateValue <= -50) {
+  if (translateValue <= -560) {
 
     index7 = 0;
     carrossel7Container.style.transition = 'none';
