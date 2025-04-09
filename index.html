@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Loja de Artigos Esportivos Online | Netshoes</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/images/logo.png">
   </head>
   <body>
-          
     <nav class="search-bar">
       <div class="netshoes-logo">
         <img
@@ -16,14 +16,14 @@
         />
       </div>
       <input type="search" placeholder="O que você está procurando?" />
-      <div id="lupa-img">
-        <img src="./assets/images/header/lupa.png" alt="Pesquisar" />
+      <div
+      onmouseover="mudarCorImg('#30006B', './assets/images/header/lupa-branca.png')"
+      onmouseout="mudarCorImg('white', './assets/images/header/lupa.png')"
+      id="lupa-img">
+        <img id="teste" src="./assets/images/header/lupa.png" alt="Pesquisar" />
       </div>
       <div class="search-bar-right-images">
-        <img
-          src="./assets/images/header/coracao.png"
-          alt="Lista de desejos"
-        />
+        <img src="./assets/images/header/coracao.png" alt="Lista de desejos" />
         <span>Lista de Desejos</span>
         <img src="./assets/images/header/do-utilizador.png" alt="Perfil" />
         <span>Entrar</span>
@@ -37,8 +37,10 @@
           alt="Carrinho"
         />
       </div>
+      <script src="./header-hover.js"></script>
+
     </nav>
-    
+
     <header>
       <div class="acessibility-bar">
         <div class="acessibility-bar-left">
@@ -838,7 +840,6 @@
       <div class="all-carrossel all-carrossel5" style="margin-top: 40px">
         <div class="carrossel-content">
           <div class="carrossel carrossel5" style="margin-left: 10px">
-            
             <div class="carrossel-container carrossel5-container">
               <div class="carrossel-container-all">
                 <div class="carrossel-item">
@@ -1076,7 +1077,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <button class="prev leg-button button5" onclick="mudarImagem5(-1)">
@@ -1306,7 +1306,6 @@
       >
         <div class="carrossel-content carrossel-content7">
           <div class="carrossel carrossel7">
-
             <div class="carrossel-container carrossel7-container">
               <div class="carrossel-container-all">
                 <div class="carrossel-item">
@@ -1532,8 +1531,6 @@
                 </div>
               </div>
             </div>
-            
-
           </div>
         </div>
         <button class="prev leg-button button7" onclick="mudarImagem7(-1)">
@@ -1552,35 +1549,244 @@
       <div class="text">
         <span>@NETSHOES</span>
       </div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+      <div class="main-bottom-image">
+        <img src="./assets/images/main/ads-imgs1.jpg" alt="AD NETSHOES" />
+        <img src="./assets/images/main/ads-imgs2.jpg" alt="AD NETSHOES" />
+        <img src="./assets/images/main/ads-imgs3.jpg" alt="AD NETSHOES" />
+        <img src="./assets/images/main/ads-imgs4.jpg" alt="AD NETSHOES" />
+        <img src="./assets/images/main/ads-imgs5.jpg" alt="AD NETSHOES" />
+        <img src="./assets/images/main/ads-imgs6.jpg" alt="AD NETSHOES" />
       </div>
 
       <!-- Receba ofertas e descontos exclusivos -->
-      <div>
-        <div>
+      <div class="recive-offers">
+        <div class="recive-offers-text">
           <span>Receba ofertas e descontos exclusivos</span>
-          <span
-            >Ao se cadastrar você concorda em receber ofertas e novidades da
-            loja Netshoes por e-mail conforme a Política de Privacidade.</span
-          >
+          <br />
+          <div class="recive-offers-policy">
+            <label>
+              <input type="checkbox" />
+            </label>
+            <span
+              >Ao se cadastrar você concorda em receber
+              <strong>ofertas e novidades</strong> da loja Netshoes por e-mail
+              conforme a <u>Política de Privacidade.</u></span
+            >
+          </div>
         </div>
-        <div>
-          <input type="text" />
-          <input type="text" />
+        <div class="offers-input">
+          <input type="text" placeholder="Digite seu Nome" />
+          <input type="text" placeholder="Digite seu E-mail" />
         </div>
-        <div>
+        <div class="recive-offers-login">
           <span>CADASTRAR</span>
         </div>
       </div>
       <script src="./carrossel.js"></script>
     </main>
-    <footer></footer>
-    <!-- <span style="font-size: 50px; font-weight: 900;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquid deleniti quo? Harum beatae, sed voluptatum officia, soluta, tempora necessitatibus reiciendis doloribus enim praesentium eum quibusdam rerum neque mollitia ad.</span> -->
+    <footer>
+      <div class="footer-top">
+        <div class="items-footer-top">
+          <fieldset>
+            <legend>OUTRAS PÁGINAS ACESSADAS</legend>
+          </fieldset>
+
+          <div class="accessed-pages">
+            <div>
+              <span>creatina</span>
+              <span>creatina integralmedica</span>
+              <span>camiseta masculina</span>
+              <span>growth supplements</span>
+              <span>creatina probiotica</span>
+              <span>bola de volei</span>
+              <span>whey growth</span>
+            </div>
+            <div>
+              <span>sapatos masculinos</span>
+              <span>creatina monohidratada</span>
+              <span>mochila masculina</span>
+              <span>creatina growth</span>
+              <span>creatina black skull</span>
+              <span>tenis adidas feminino</span>
+              <span>whey protein isolado</span>
+            </div>
+            <div>
+              <span>relógios masculinos</span>
+              <span>creatina creapure</span>
+              <span>creatina universal</span>
+              <span>chuteira society nike</span>
+              <span>sandalias femininas</span>
+              <span>creatina masterway</span>
+              <span>calça sarja</span>
+            </div>
+            <div>
+              <span>tesla tenis</span>
+              <span>kit whey e creatina</span>
+              <span>tenis crossfit</span>
+              <span>camisa do sao paulo</span>
+              <span>sapato social masculino</span>
+              <span>cargo masculina</span>
+              <span>luva de goleiro profissional</span>
+            </div>
+            <div>
+              <span>papete feminina</span>
+              <span>creatina 1kg</span>
+              <span>papete beira rio</span>
+              <span>chinelo nike</span>
+              <span>nike court vision</span>
+              <span>oculos de sol</span>
+              <span>creatina max titanium 300g</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="delivery-footer">
+          <div class="items-delivery">
+            <img
+              style="width: 50px; height: 50px"
+              src="./assets/images/footer/express-delivery.png"
+              alt="Frete Grátis"
+            />
+            <div class="about-delivery">
+              <strong>FRETE GRÁTIS</strong>
+              <span>Em produtos selecionados</span>
+              <span class="span-hover">Confira as regras</span>
+            </div>
+          </div>
+
+          <div class="items-delivery">
+            <img
+              src="./assets/images/footer/stopwatch.png"
+              alt="Frete Grátis"
+            />
+            <div class="about-delivery">
+              <strong>FRETE GRÁTIS</strong>
+              <span>Em produtos selecionados</span>
+              <span class="span-hover">Confira as regras</span>
+            </div>
+          </div>
+
+          <div class="items-delivery">
+            <img
+              src="./assets/images/footer/credit-card.png"
+              alt="Frete Grátis"
+            />
+            <div class="about-delivery">
+              <strong>FRETE GRÁTIS</strong>
+              <span>Em produtos selecionados</span>
+              <span class="span-hover">Confira as regras</span>
+            </div>
+          </div>
+        </div>
+        <div class="all-items">
+          <div class="footer-informations">
+            <div>
+              <strong>Institucional</strong>
+              <span>Sobre a Netshoes</span>
+              <span>Política de Privacidade</span>
+              <span>Trabalhe Conosco</span>
+              <span>Programa de Afiliados</span>
+              <span>Soluções Corporativas</span>
+              <span>Regulamentos</span>
+              <span>Relatórios</span>
+              <span>Programa de Integridade</span>
+              <span>Guia Netshoes</span>
+              <span>Blog</span>
+              <span>Tudo sobre Suplementos</span>
+              <span>Dicas de Corrida</span>
+              <span>Especiais Bicicletas</span>
+              <span>Especiais de Futebol</span>
+              <span>Black Friday Magalu</span>
+              <span>Black Friday Netshoes</span>
+              <span>Loja Física</span>
+            </div>
+            <div>
+              <strong>Ajuda</strong>
+              <span>Trocas e devoluções</span>
+              <span>Entregas</span>
+              <span>Minha Conta</span>
+              <span>Meus Pedidos</span>
+              <span>Pagamentos</span>
+              <span>Cancelamentos</span>
+              <span>N Card</span>
+              <span>Segurança & Privacidade</span>
+              <span>Como Comprar</span>
+              <span>Acessibilidade</span>
+            </div>
+            <div>
+              <strong>Netshoes Empresas</strong>
+              <span>Marketplace Netshoes</span>
+            </div>
+            <div>
+              <strong>Central de vendas</strong>
+              <span>Marketplace Netshoes</span>
+            </div>
+            <div>
+              <strong>Central de Relacionamento</strong>
+              <button>TIRE SUAS DÚVIDAS</button>
+            </div>
+            <div class="img-footer">
+              <a
+                style="text-decoration: none"
+                href="https://www.linkedin.com/in/maria-luisa-ramos-155750290/"
+              >
+                <img
+                  src="./assets/images/footer/linkedin (1).png"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a
+                style="text-decoration: none"
+                href="https://github.com/Maria-Luisa1599?tab=repositories"
+              >
+                <img
+                  src="./assets/images/footer/placa-do-github.png"
+                  alt="GitHub"
+                />
+              </a>
+              <a
+                style="text-decoration: none"
+                href="https://www.instagram.com/ashoabill/"
+              >
+                <img
+                  src="./assets/images/footer/instagram.png"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="payment-form">
+            <img src="./assets/images/footer/visa.webp" alt="Visa" />
+            <img
+              src="./assets/images/footer/mastercard.webp"
+              alt="Mastercard"
+            />
+            <img src="./assets/images/footer/dinerclub.webp" alt="Elo" />
+            <img
+              style="width: 30px"
+              src="./assets/images/footer/logo-pix-520x520.png"
+              alt="Pix"
+            />
+            <div class="info-payment">
+              <span
+                >Divida suas compras em 2 cartões e pague em até 10x sem
+                juros</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-end">
+        <div class="head-info-end">
+          <span>Zattini </span>|<span> Shoestock</span>
+        </div>
+        <div class="about-info-end">
+          <span>Copyright © 2000 - 2025 www.netshoes.com.br, TODOS OS DIREITOS RESERVADOS. Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas, dizeres, som, software, conjunto imagem, layout, trade dress, aqui veiculados são de propriedade exclusiva da NS2.COM Internet S.A. ou de seus parceiros. É vedada qualquer reprodução, total ou parcial, de qualquer elemento de identidade, sem expressa autorização. A violação de qualquer direito mencionado implicará na responsabilização cível e criminal nos termos da Lei. NS2.Com Internet S/A - CNPJ: 09.339.936/0001-16 - R MARIA PRESTES MAIA nº 300 - 2º Andar CEP: 02047-901 - CARANDIRU - SAO PAULO - SP - A inclusão no carrinho não garante o preço e/ou a disponibilidade do produto. Caso os produtos apresentem divergências de valores, o preço válido é o exibido na tela de pagamento. Vendas sujeitas a análise e disponibilidade de estoque. Fale conosco: https://atendimento.netshoes.com.br</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
